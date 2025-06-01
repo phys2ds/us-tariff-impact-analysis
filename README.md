@@ -10,3 +10,9 @@ This project explores those effects through data-drive analysis
 ## How
 - X
 - y
+
+## Env
+```bash
+conda env create -f environment.yml
+conda activate tariff-env
+```

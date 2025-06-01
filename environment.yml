@@ -1,0 +1,19 @@
+name: tariff-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - pandas
+      - numpy
+      - scikit-learn
+      - matplotlib
+      - seaborn
+      - statsmodels
+      - plotly
+      - ipykernel
+      - requests
+      - beautifulsoup4
+      - tqdm
