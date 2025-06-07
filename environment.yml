@@ -18,3 +18,4 @@ dependencies:
       - requests
       - beautifulsoup4
       - tqdm
+      - yfinance
