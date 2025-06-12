@@ -19,3 +19,4 @@ dependencies:
       - beautifulsoup4
       - tqdm
       - yfinance
+      - datetime
