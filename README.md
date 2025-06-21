@@ -16,3 +16,7 @@ This project explores those effects through data-drive analysis
 conda env create -f environment.yml
 conda activate tariff-env
 ```
+
+## Future ideas
+- file:///home/maciejkozubal/Downloads/ssrn-5224176.pdf
+- https://www.sciencedirect.com/science/article/abs/pii/S1478409224000037?via%3Dihub
