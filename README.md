@@ -1,18 +1,49 @@
 # US Tariffs & Their impact 
 
-## Goal
-Quantify effects of major U.S. tariff decisions using open data and ML algorithms
+---
 
 ## Why
-Trade policies like tariffs have effects on stock, imports, real estate prices, prices of good, peoples' wellbeing, etc. 
-This project explores those effects through data-drive analysis
+
+### Motivation
+Trade policies like tariffs affect stock prices, import volumes, produces prices, public sentiment, etc. 
+
+This project aims to explore those effects using open data and ML 
+
+
+---
 
 ## How
-- X
-- y
 
-## Env
+### Env
 ```bash
 conda env create -f environment.yml
 conda activate tariff-env
 ```
+
+### Data sources
+- X: tariff events (annoucements dates, sectors affected, rate)
+  - Federal Registry - tariff events & announcements
+  - HTS Archive (USITC) - ?
+- y: market or economic response (sector stock prices, import volumes, PPI, sentiment indices)
+  - Yahoo Finance - sector ETF prices
+  - ? - PPI
+  - ? - import volumes
+  - GDELT - news sentiment
+
+### Pipeline
+1. Fetch
+2. Clean and extract features
+3. EDA
+4. Merge
+5. Model
+
+### Notebooks
+- 01_fetch_fedregister.ipynb - download raw tariff data
+- 02_clean_fedregister.ipynb - deduplicate, clean, extract features
+
+## Future ideas
+- https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5224176
+- https://www.sciencedirect.com/science/article/abs/pii/S1478409224000037
+- [HTS Archive](https://www.usitc.gov/harmonized_tariff_information/hts/archive/list)
+
+---
