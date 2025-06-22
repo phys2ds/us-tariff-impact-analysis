@@ -23,12 +23,13 @@ conda activate tariff-env
 ### Data sources
 - X: tariff events (annoucements dates, sectors affected, rate)
   - Federal Registry - tariff events & announcements
+  - https://www.whitehouse.gov/presidential-actions - presidential actions
   - HTS Archive (USITC) - ?
 - y: market or economic response (sector stock prices, import volumes, PPI, sentiment indices)
   - Yahoo Finance - sector ETF prices
   - ? - PPI
   - ? - import volumes
-  - GDELT - news sentiment
+  - GDELT - news sentiment (https://github.com/alex9smith/gdelt-doc-api)
 
 ### Pipeline
 1. Fetch
@@ -42,7 +43,7 @@ conda activate tariff-env
 - 02_clean_fedregister.ipynb - deduplicate, clean, extract features
 
 ## Future ideas
-- https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5224176
+- [Tariff Announcements, News Sentiment, and S&P 500 Returns: A High-Frequency, Multi-Model Event Study](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5224176)
 - https://www.sciencedirect.com/science/article/abs/pii/S1478409224000037
 - [HTS Archive](https://www.usitc.gov/harmonized_tariff_information/hts/archive/list)
 
