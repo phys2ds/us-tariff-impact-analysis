@@ -1,0 +1,16 @@
+# us tariff
+
+My thoughts:
+1) steel & aluminum - it's difficult to see direct impact of tariffs on e.g. stell and aluminum prices (see https://www.reuters.com/graphics/TRUMP-TARIFFS/STEEL/gdpznwgdzpw/). pandemic had a significant effect. also there were only roughly two signals, 2018 and in 20215? so should I even bother with this model building of price vs tariff signal, since I would have so few data points and there are strong parasitic effects? maybe I'm wrong. also, you said that high global demand and covid supply-chain disruption influenced the steel prices
+
+2) number of signals of all these, semiconductor tariffs seems to have the most signal, am I right? tariffs on metals seem to consist only of two signals
+
+3) help me select easiest set of data/approach - one where I can gather data and make any predictions, so at least have several signals (and of course I will have plenty of data points in terms of prices or stocks)
+My thoughts:
+1) steel & aluminum - it's difficult to see direct impact of tariffs on e.g. stell and aluminum prices (see https://www.reuters.com/graphics/TRUMP-TARIFFS/STEEL/gdpznwgdzpw/). pandemic had a significant effect. also there were only roughly two signals, 2018 and in 20215? so should I even bother with this model building of price vs tariff signal, since I would have so few data points and there are strong parasitic effects? maybe I'm wrong. also, you said that high global demand and covid supply-chain disruption influenced the steel prices
+
+2) number of signals of all these, semiconductor tariffs seems to have the most signal, am I right? tariffs on metals seem to consist only of two signals. or maybe there were multiple signals - both announcements and implementations? 
+
+3) help me select easiest set of data/approach - one where I can gather data and make any predictions, so at least have several signals (and of course I will have plenty of data points in terms of prices or stocks)
+
+4) looking at this 2025 study by zafar, I don't even know what's more important, just news sentiment/tariff announcement or tariff implementation itself 

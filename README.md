@@ -23,7 +23,7 @@ conda activate tariff-env
 ### Data sources
 - X: tariff events (annoucements dates, sectors affected, rate)
   - Federal Registry - tariff events & announcements
-  - https://www.whitehouse.gov/presidential-actions - presidential actions
+  - [Presidential Actions](https://www.whitehouse.gov/presidential-actions)
   - HTS Archive (USITC) - ?
 - y: market or economic response (sector stock prices, import volumes, PPI, sentiment indices)
   - Yahoo Finance - sector ETF prices
